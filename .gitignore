@@ -1,0 +1,30 @@
+# Large data
+data/
+
+# Generated outputs
+logs/
+scores/
+results/
+
+# Python caches and environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Large file types, as a safety net
+*.db
+*.sqlite
+*.sqlite3
+*.h5
+*.hdf5
+*.parquet
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
